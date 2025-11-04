@@ -1,0 +1,61 @@
+# =========================
+# Genel kurallar
+# =========================
+
+# Ortak .env dosyaları
+.env
+*.env
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Node.js (frontend veya backend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build çıktıları
+dist/
+build/
+.next/
+out/
+coverage/
+
+# IDE / Editör dosyaları
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Backend (örnek: Python veya Node)
+# =========================
+
+# Python için
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Eğer virtualenv kullanıyorsan:
+venv/
+.env/
+.venv/
+
+# Backend .env dosyası (explicit belirtelim)
+backend/.env
+
+# =========================
+# Frontend (React, Vue, vs.)
+# =========================
+
+# Frontend build çıktıları
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# =========================
+# OS / Misc
+# =========================
+*.log
+*.bak
